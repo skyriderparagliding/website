@@ -89,7 +89,7 @@ export function Header() {
             <Search className="h-5 w-5" />
           </Link>
           <a
-            href={`tel:${SITE_CONFIG.phone}`}
+            href={`tel:${SITE_CONFIG.phoneTel}`}
             className="hidden md:flex h-10 w-10 items-center justify-center rounded-full text-slate-600 hover:bg-slate-100 transition-colors"
             aria-label="Call us"
           >

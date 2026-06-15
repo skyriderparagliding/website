@@ -11,9 +11,9 @@ export function OrganizationSchema() {
     email: SITE_CONFIG.email,
     address: {
       "@type": "PostalAddress",
-      streetAddress: "Lakeside",
+      streetAddress: "Street 5, Lakeside",
       addressLocality: "Pokhara",
-      postalCode: "33700",
+      addressRegion: "Kaski",
       addressCountry: "NP",
     },
     geo: {

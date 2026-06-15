@@ -45,7 +45,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-slate-900">Phone</h3>
-                    <a href={`tel:${SITE_CONFIG.phone}`} className="mt-1 text-sky-500 hover:text-sky-600">
+                    <a href={`tel:${SITE_CONFIG.phoneTel}`} className="mt-1 text-sky-500 hover:text-sky-600">
                       {SITE_CONFIG.phone}
                     </a>
                   </div>

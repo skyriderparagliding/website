@@ -1,9 +1,13 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
+
+const HERO_IMAGE =
+  "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1920&q=80";
 
 export function HeroSection() {
   const { scrollY } = useScroll();
@@ -13,13 +17,20 @@ export function HeroSection() {
   return (
     <section className="relative h-screen min-h-[600px] overflow-hidden">
       <motion.div style={{ y }} className="absolute inset-0">
+        <Image
+          src={HERO_IMAGE}
+          alt="Paragliding over the Himalayas"
+          fill
+          priority
+          className="object-cover"
+          sizes="100vw"
+        />
         <video
           autoPlay
           muted
           loop
           playsInline
-          poster="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1920&q=80"
-          className="h-full w-full object-cover"
+          className="absolute inset-0 z-10 h-full w-full object-cover"
         >
           <source
             src="https://assets.mixkit.co/videos/preview/mixkit-aerial-view-of-a-paraglider-flying-over-the-mountains-4240-large.mp4"

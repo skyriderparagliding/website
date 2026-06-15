@@ -89,7 +89,7 @@ export function Footer() {
               </li>
               <li className="flex items-center gap-2">
                 <Phone className="h-4 w-4 shrink-0 text-sky-400" />
-                <a href={`tel:${SITE_CONFIG.phone}`} className="hover:text-sky-400 transition-colors">
+                <a href={`tel:${SITE_CONFIG.phoneTel}`} className="hover:text-sky-400 transition-colors">
                   {SITE_CONFIG.phone}
                 </a>
               </li>
@@ -112,6 +112,17 @@ export function Footer() {
             <Link href="/contact" className="hover:text-sky-400 transition-colors">Terms of Service</Link>
           </div>
         </div>
+        <p className="mt-4 text-center text-xs text-slate-600">
+          Website developed by{" "}
+          <a
+            href="https://nepalabs.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-slate-500 hover:text-sky-400 transition-colors"
+          >
+            Nepalabs
+          </a>
+        </p>
       </div>
     </footer>
   );
