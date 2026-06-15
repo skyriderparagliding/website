@@ -15,6 +15,8 @@ export const SITE_CONFIG = {
   },
 } as const;
 
+export const CURRENCY = "NPR" as const;
+
 export const COLORS = {
   primary: "#0EA5E9",
   dark: "#0F172A",

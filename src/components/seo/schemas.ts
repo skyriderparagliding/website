@@ -1,4 +1,4 @@
-import { SITE_CONFIG } from "@/lib/constants";
+import { SITE_CONFIG, CURRENCY } from "@/lib/constants";
 
 export function OrganizationSchema() {
   return {
@@ -46,7 +46,7 @@ export function ProductSchema(product: {
     offers: {
       "@type": "Offer",
       url: `${SITE_CONFIG.url}/shop/product/${product.slug}`,
-      priceCurrency: "USD",
+      priceCurrency: CURRENCY,
       price: product.price,
       availability: product.inStock
         ? "https://schema.org/InStock"

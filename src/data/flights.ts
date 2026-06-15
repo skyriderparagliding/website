@@ -16,7 +16,7 @@ export const flights: Flight[] = [
     tagline: "Your first flight over the Annapurna range",
     description:
       "Experience the magic of free flight with our certified tandem pilots. Soar above Pokhara's Phewa Lake with breathtaking views of the Annapurna and Machapuchare peaks. No experience necessary — just bring your sense of adventure.",
-    price: 95,
+    price: 12500,
     duration: "20–30 minutes",
     heroImage: hero,
     gallery,
@@ -44,7 +44,7 @@ export const flights: Flight[] = [
     tagline: "Extended soaring above the Himalayas",
     description:
       "For experienced passengers or pilots looking for an extended adventure. Fly cross-country routes along the Annapurna range with thermalling and ridge soaring. Minimum 45 minutes airborne with spectacular mountain views.",
-    price: 180,
+    price: 24000,
     duration: "45–60 minutes",
     heroImage: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1600&q=80",
     gallery,
@@ -72,7 +72,7 @@ export const flights: Flight[] = [
     tagline: "Adrenaline-packed aerobatic experience",
     description:
       "For thrill-seekers only. Experience wing-overs, spirals, and controlled acro maneuvers with our specialist acro pilots. An unforgettable adrenaline rush above Pokhara's stunning landscape.",
-    price: 150,
+    price: 20000,
     duration: "15–20 minutes",
     heroImage: "https://images.unsplash.com/photo-1519681393784-d120267933ba?w=1600&q=80",
     gallery,
@@ -98,7 +98,7 @@ export const flights: Flight[] = [
     tagline: "Golden hour magic over the mountains",
     description:
       "Take off at dawn as the first light paints the Himalayas gold. The most serene and photogenic flight experience in Pokhara. Calm morning air and spectacular sunrise views make this our most popular premium experience.",
-    price: 120,
+    price: 16000,
     duration: "25–35 minutes",
     heroImage: "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=1600&q=80",
     gallery,
@@ -126,7 +126,7 @@ export const flights: Flight[] = [
     tagline: "Fly into the golden Himalayan dusk",
     description:
       "Glide through the golden hour as the sun sets behind the Annapurna range. A romantic, peaceful flight perfect for couples and photographers. Watch Pokhara transform as day turns to night from 3,000 feet.",
-    price: 120,
+    price: 16000,
     duration: "25–35 minutes",
     heroImage: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=1600&q=80",
     gallery,

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { createMetadata } from "@/lib/seo";
+import { formatPrice } from "@/lib/utils";
 import { flights } from "@/data/flights";
 import { FadeUp } from "@/components/motion/fade-up";
 import { Button } from "@/components/ui/button";
@@ -55,7 +56,7 @@ export default function FlightsPage() {
                     <p className="mt-1 text-sm text-slate-500">{flight.tagline}</p>
                     <div className="mt-4 flex items-center justify-between">
                       <div>
-                        <span className="text-2xl font-bold text-sky-500">${flight.price}</span>
+                        <span className="text-2xl font-bold text-sky-500">{formatPrice(flight.price)}</span>
                         <span className="ml-2 text-sm text-slate-400">{flight.duration}</span>
                       </div>
                       <Button asChild size="sm">

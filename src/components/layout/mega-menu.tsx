@@ -7,7 +7,7 @@ import { ChevronDown, Plane, ShoppingBag, Recycle, Tag, BookOpen } from "lucide-
 import { shopCategories } from "@/data/categories";
 import { brands } from "@/data/brands";
 import { flights } from "@/data/flights";
-import { cn } from "@/lib/utils";
+import { cn, formatPrice } from "@/lib/utils";
 
 type MegaMenuProps = {
   isOpen: boolean;
@@ -51,7 +51,7 @@ export function MegaMenu({ isOpen, activeMenu, onClose }: MegaMenuProps) {
                       </h4>
                       <p className="mt-1 text-sm text-slate-500">{flight.tagline}</p>
                       <p className="mt-2 text-sm font-semibold text-sky-500">
-                        From ${flight.price}
+                        From {formatPrice(flight.price)}
                       </p>
                     </Link>
                   ))}

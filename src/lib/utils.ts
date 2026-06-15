@@ -1,12 +1,14 @@
 import { type ClassValue, clsx } from "clsx";
 import { twMerge } from "tailwind-merge";
 
+import { CURRENCY } from "@/lib/constants";
+
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }
 
-export function formatPrice(price: number, currency = "USD") {
-  return new Intl.NumberFormat("en-US", {
+export function formatPrice(price: number, currency = CURRENCY) {
+  return new Intl.NumberFormat("en-NP", {
     style: "currency",
     currency,
     minimumFractionDigits: 0,

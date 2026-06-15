@@ -40,7 +40,7 @@ The flying season runs from September through May. October-November and March-Ap
 
 ## Pricing & Booking
 
-Tandem flights start at $95 USD. Book online or via WhatsApp for instant confirmation.
+Tandem flights start at Rs. 12,500. Book online or via WhatsApp for instant confirmation.
     `,
     category: "Tandem Paragliding",
     author: "SkyRiders Team",
