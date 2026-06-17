@@ -11,10 +11,9 @@ import { Newsletter } from "@/components/home/newsletter";
 export default function HomePage() {
   return (
     <>
-      <HeroSection />
+    <EquipmentCategories />
       <WhySkyRiders />
       <FeaturedExperiences />
-      <EquipmentCategories />
       <FeaturedProducts />
       <Testimonials />
       <BlogPreview />

@@ -32,13 +32,6 @@ export function Header() {
 
         <nav className="hidden lg:flex items-center">
           <NavItem
-            label="Flights"
-            menuKey="flights"
-            activeMenu={activeMenu}
-            setActiveMenu={setActiveMenu}
-            hasDropdown
-          />
-          <NavItem
             label="Shop"
             menuKey="shop"
             activeMenu={activeMenu}
@@ -46,8 +39,8 @@ export function Header() {
             hasDropdown
           />
           <NavItem
-            label="Rental"
-            menuKey="rental"
+            label="Brands"
+            menuKey="brands"
             activeMenu={activeMenu}
             setActiveMenu={setActiveMenu}
             hasDropdown
@@ -60,8 +53,15 @@ export function Header() {
             hasDropdown
           />
           <NavItem
-            label="Brands"
-            menuKey="brands"
+            label="Rental"
+            menuKey="rental"
+            activeMenu={activeMenu}
+            setActiveMenu={setActiveMenu}
+            hasDropdown
+          />
+          <NavItem
+            label="Flights"
+            menuKey="flights"
             activeMenu={activeMenu}
             setActiveMenu={setActiveMenu}
             hasDropdown

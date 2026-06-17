@@ -18,12 +18,12 @@ export const shopCategories: Category[] = [
     image: IMG.wings,
     href: "/shop/wings",
     subcategories: [
+      { slug: "tandem-paraglider", name: "Tandem Paraglider", image: IMG.wings, href: "/shop/wings/tandem-paraglider" },
       { slug: "first-paraglider", name: "First Paraglider", image: IMG.wings, href: "/shop/wings/first-paraglider" },
       { slug: "progressive-paraglider", name: "Progressive Paraglider", image: IMG.wings, href: "/shop/wings/progressive-paraglider" },
       { slug: "xc-paraglider", name: "XC Paraglider", image: IMG.wings, href: "/shop/wings/xc-paraglider" },
       { slug: "sports-paraglider", name: "Sports Paraglider", image: IMG.wings, href: "/shop/wings/sports-paraglider" },
       { slug: "competition-paraglider", name: "Competition Paraglider", image: IMG.wings, href: "/shop/wings/competition-paraglider" },
-      { slug: "tandem-paraglider", name: "Tandem Paraglider", image: IMG.wings, href: "/shop/wings/tandem-paraglider" },
       { slug: "lightweight-paraglider", name: "Lightweight Paraglider", image: IMG.wings, href: "/shop/wings/lightweight-paraglider" },
       { slug: "mini-mountain-paraglider", name: "Mini / Mountain Paraglider", image: IMG.wings, href: "/shop/wings/mini-mountain-paraglider" },
       { slug: "acro-paraglider", name: "Acro Paraglider", image: IMG.wings, href: "/shop/wings/acro-paraglider" },
@@ -36,13 +36,13 @@ export const shopCategories: Category[] = [
     image: IMG.harness,
     href: "/shop/harnesses",
     subcategories: [
+      { slug: "tandem-harnesses", name: "Tandem Harnesses", image: IMG.harness, href: "/shop/harnesses/tandem-harnesses" },
       { slug: "first-harnesses", name: "First Harnesses", image: IMG.harness, href: "/shop/harnesses/first-harnesses" },
       { slug: "progressive-harnesses", name: "Progressive Harnesses", image: IMG.harness, href: "/shop/harnesses/progressive-harnesses" },
       { slug: "xc-harnesses", name: "XC Harnesses", image: IMG.harness, href: "/shop/harnesses/xc-harnesses" },
       { slug: "competition-harnesses", name: "Competition Harnesses", image: IMG.harness, href: "/shop/harnesses/competition-harnesses" },
       { slug: "acro-harnesses", name: "Acro Harnesses", image: IMG.harness, href: "/shop/harnesses/acro-harnesses" },
-      { slug: "mountain-harnesses", name: "Mountain Harnesses", image: IMG.harness, href: "/shop/harnesses/mountain-harnesses" },
-      { slug: "tandem-harnesses", name: "Tandem Harnesses", image: IMG.harness, href: "/shop/harnesses/tandem-harnesses" },
+      { slug: "mountain-harnesses", name: "Mountain Harnesses", image: IMG.harness, href: "/shop/harnesses/mountain-harnesses" }
     ],
   },
   {
