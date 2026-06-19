@@ -93,6 +93,20 @@ export const brands: Brand[] = [
     featured: true,
   },
   {
+    id: "troy",
+    slug: "troy",
+    name: "Troy",
+    tagline: "Built to Last",
+    description:
+      "Troy Paragliders, developed by the Gradient team, is known for durable materials, smooth handling, and wings designed for professional tandem and school use.",
+    logo: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=200&q=80",
+    heroImage: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
+    ],
+    productCategories: ["wings"],
+  },
+  {
     id: "davinci",
     slug: "davinci",
     name: "Davinci",

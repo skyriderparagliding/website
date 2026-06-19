@@ -50,6 +50,9 @@ export default async function SubcategoryPage({ params }: Props) {
               <span className="text-slate-900">{sub.name}</span>
             </nav>
             <h1 className="text-4xl font-bold text-slate-900">{sub.name}</h1>
+            {sub.description && (
+              <p className="mt-3 max-w-2xl text-lg text-slate-600">{sub.description}</p>
+            )}
           </FadeUp>
         </div>
       </section>
